@@ -1,4 +1,3 @@
-import DevImg from "./DevImg";
 import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
@@ -11,6 +10,7 @@ import {
   Calendar,
   Briefcase,
 } from "lucide-react";
+import DevImg from "./Devimg";
 
 const InfoData = [
   {
