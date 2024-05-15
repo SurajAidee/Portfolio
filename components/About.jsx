@@ -60,13 +60,13 @@ const qualificationData = [
     data: [
       {
         company: "ABC Inc.",
-        role: "Software Engineer",
-        years: "2019 - 2021",
+        role: "Abc",
+        years: "... - ...",
       },
       {
         company: "XYZ Inc.",
-        role: "QA Analyst",
-        years: "2022 - 2024",
+        role: "Xyz",
+        years: "... - ...",
       },
     ],
   },

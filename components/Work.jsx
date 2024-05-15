@@ -17,83 +17,19 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
-    image: "/work/3.png",
-    category: "react js",
-    name: "Nexa Website",
+    image: "/work/1.png",
+    category: "Full stack",
+    name: "Property seller Website",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, veritatis accusantium magni adipisci exercitationem enim!",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/4.png",
-    category: "react js",
-    name: "Solctice Website",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, veritatis accusantium magni adipisci exercitationem enim!",
+      "It is mern property seller website for selling property to client.",
     link: "/",
     github: "/",
   },
   {
     image: "/work/2.png",
-    category: "next js",
-    name: "Lumina Website",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, veritatis accusantium magni adipisci exercitationem enim!",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/1.png",
-    category: "next js",
-    name: "Evolve Website",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, veritatis accusantium magni adipisci exercitationem enim!",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/3.png",
-    category: "next js",
-    name: "Ignite Website",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, veritatis accusantium magni adipisci exercitationem enim!",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/4.png",
-    category: "next js",
-    name: "Envision Website",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, veritatis accusantium magni adipisci exercitationem enim!",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/1.png",
-    category: "full stack",
-    name: "Serenity Website",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, veritatis accusantium magni adipisci exercitationem enim!",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/3.png",
-    category: "full stack",
-    name: "Nova Website",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, veritatis accusantium magni adipisci exercitationem enim!",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/2.png",
-    category: "full stack",
-    name: "Zenith Website",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, veritatis accusantium magni adipisci exercitationem enim!",
+    category: "react js",
+    name: "To Do List",
+    description: "It is an react based to do list.",
     link: "/",
     github: "/",
   },
@@ -106,10 +42,7 @@ const Work = () => {
         {/* text */}
         <div className=" max-w-[400px] mx-auto xl:mx-0 text-center xl;text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
           <h2 className="section-title mb-4">Latest Projects</h2>
-          <p className="subtitle mb-8">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A,
-            consequuntur.
-          </p>
+          <p className="subtitle mb-8">Latest projects are ...</p>
           <Link href="/projects">
             <Button>All projects</Button>
           </Link>
